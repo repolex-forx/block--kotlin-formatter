@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/kotlin-formatter/commit/cda53bc0b575fec0d85728d94b44b668d041ad99",
       "git:hexsha": "cda53bc0b575fec0d85728d94b44b668d041ad99",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "1.8.0"
     },
     {
