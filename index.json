@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "kotlin-formatter",
+  "versions": [
+    {
+      "commit": "cda53bc0b575fec0d85728d94b44b668d041ad99",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:45:43.692747+00:00"
+    }
+  ]
+}
