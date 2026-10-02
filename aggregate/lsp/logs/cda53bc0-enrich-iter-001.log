@@ -1,18 +1,18 @@
-[2026-10-02T10:42:25Z] === ENRICH ITERATION 1 START | repo=block/kotlin-formatter sha=cda53bc0 ===
-[2026-10-02T10:42:25Z] [iter=1] PHASE START: enrich repo=block/kotlin-formatter sha=cda53bc0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/cda53bc0-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/cda53bc0b575fec0d85728d94b44b668d041ad99.nq.gz
-[2026-10-02T10:42:25Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
-[2026-10-02T10:42:26Z] [iter=1] AST store loaded triples=161916 load_secs=1 mem_mb=345 MB
-[2026-10-02T10:42:26Z] [iter=1] Step 2: Finding LSP targets mem_mb=345 MB
-[2026-10-02T10:42:27Z] [iter=1] LSP targets found call_sites=1902 imports=153 extends=0 implements=0 secs=1
-[2026-10-02T10:42:27Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=345 MB
-[2026-10-02T10:42:28Z] [iter=1] Position index built positions=8932 nodes_with_types=11597 secs=1 mem_mb=345 MB
-[2026-10-02T10:42:28Z] [iter=1] Step 3: Starting LSP resolution mem_mb=345 MB already_completed_types=[] already_completed_files=0
-[2026-10-02T10:42:28Z] [iter=1] Resolving target type target_type=call_site count=1902
-[2026-10-02T10:43:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=6 resolved=51 errors=335 current=kotlin-format/src/test/kotlin/xyz/block/kotlinformatter/FormattingConfigsTest.kt
-[2026-10-02T10:43:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=35 resolved=105 errors=743 current=git-hooks/kotlin-format.pre-push.sh
-[2026-10-02T10:43:36Z] [iter=1] Target type resolved target_type=call_site resolved=105 errors=768 secs=68 mem_mb=345 MB
-[2026-10-02T10:43:36Z] [iter=1] Resolving target type target_type=import_statement count=153
-[2026-10-02T10:43:48Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=11 mem_mb=345 MB
-[2026-10-02T10:44:00Z] [iter=1] Step 5: Writing final enrichment file triples=9099
-[2026-10-02T10:44:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/cda53bc0b575fec0d85728d94b44b668d041ad99.nq.gz size_kb=158
-[2026-10-02T10:44:00Z] [iter=1] PHASE END: enrich elapsed_s=95 elapsed_min=1.6 total_triples=9099
+[2026-10-02T10:42:50Z] === ENRICH ITERATION 1 START | repo=block/kotlin-formatter sha=cda53bc0 ===
+[2026-10-02T10:42:50Z] [iter=1] PHASE START: enrich repo=block/kotlin-formatter sha=cda53bc0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/cda53bc0-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/cda53bc0b575fec0d85728d94b44b668d041ad99.nq.gz
+[2026-10-02T10:42:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T10:42:53Z] [iter=1] AST store loaded triples=161916 load_secs=3 mem_mb=345 MB
+[2026-10-02T10:42:53Z] [iter=1] Step 2: Finding LSP targets mem_mb=345 MB
+[2026-10-02T10:42:54Z] [iter=1] LSP targets found call_sites=1902 imports=153 extends=0 implements=0 secs=1
+[2026-10-02T10:42:54Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=345 MB
+[2026-10-02T10:42:55Z] [iter=1] Position index built positions=8932 nodes_with_types=11597 secs=1 mem_mb=345 MB
+[2026-10-02T10:42:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=345 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:42:55Z] [iter=1] Resolving target type target_type=call_site count=1902
+[2026-10-02T10:43:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=6 resolved=51 errors=335 current=kotlin-format/src/test/kotlin/xyz/block/kotlinformatter/FormattingConfigsTest.kt
+[2026-10-02T10:44:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=35 resolved=105 errors=743 current=git-hooks/kotlin-format.pre-push.sh
+[2026-10-02T10:44:06Z] [iter=1] Target type resolved target_type=call_site resolved=105 errors=768 secs=71 mem_mb=345 MB
+[2026-10-02T10:44:06Z] [iter=1] Resolving target type target_type=import_statement count=153
+[2026-10-02T10:44:19Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=12 mem_mb=345 MB
+[2026-10-02T10:44:32Z] [iter=1] Step 5: Writing final enrichment file triples=9099
+[2026-10-02T10:44:32Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/cda53bc0b575fec0d85728d94b44b668d041ad99.nq.gz size_kb=157
+[2026-10-02T10:44:32Z] [iter=1] PHASE END: enrich elapsed_s=102 elapsed_min=1.7 total_triples=9099
