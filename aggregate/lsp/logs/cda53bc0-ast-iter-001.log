@@ -1,0 +1,7 @@
+[2026-10-02T10:40:28Z] === AST ITERATION 1 START | repo=block/kotlin-formatter sha=cda53bc0 ===
+[2026-10-02T10:40:28Z] [iter=1] PHASE START: ast repo=block/kotlin-formatter sha=cda53bc0
+[2026-10-02T10:40:28Z] [iter=1] Building AST aggregate chunks
+[2026-10-02T10:40:41Z] [iter=1] AST chunks built count=1 triples=161916
+[2026-10-02T10:40:41Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/cda53bc0b575fec0d85728d94b44b668d041ad99/.complete
+[2026-10-02T10:40:41Z] [iter=1] PHASE END: ast elapsed_s=14 elapsed_min=0.2
+[2026-10-02T10:40:41Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
